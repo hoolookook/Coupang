@@ -43,17 +43,17 @@ table {
   text-indent: -9999px;
 } /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
 
-// .sprite_img {
-//   background: url(/public/src/resources/images/sprites/sprite02.png) no-repeat;
+.spriteImg {
+  background: url(/public/src/resources/images/sprites/sprite02.png) no-repeat;
 
-//   background-size: 206px 190px;
-//   display: inline-block;
-// }
-// .category_img {
-//   background: url(/public/src/resources/images/sprites/sprite06.png) no-repeat;
-//   background-size: 374px 1027px;
-//   display: inline-block;
-// }
+  background-size: 206px 190px;
+  display: inline-block;
+}
+.categoryImg {
+  background: url(/public/src/resources/images/sprites/sprite06.png) no-repeat;
+  background-size: 374px 1027px;
+  display: inline-block;
+}
 /* clearfix를 쓰는이유
      서브 메뉴가 있을수 있으므로  overflow: hidden 은 쓰지 않는다 <-서브메뉴가 가려지기 때문*/
 .clearfix {
