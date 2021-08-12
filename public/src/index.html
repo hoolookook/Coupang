@@ -8,7 +8,13 @@
 </head>
 <body>
     <div id="container">
-        @@include('@@webRoot/html/include/header.html')
+        <div id="header">
+            @@include('@@webRoot/html/include/header-nav.html')
+            <div class="headerWrap">
+                @@include('@@webRoot/html/include/header-headerwrap-category.html')
+            </div>
+           
+        </div>
         @@include('@@webRoot/html/include/contents.html')
         @@include('@@webRoot/html/include/footer.html')
     </div>

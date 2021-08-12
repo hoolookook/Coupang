@@ -1,0 +1,325 @@
+#header {
+  .headerWrap {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    .category {
+      height: 100%;
+      position: absolute;
+      .hoverMe {
+        background-position: 0 0;
+        width: 110px;
+        height: 110px;
+        &:hover .dropDownContents {
+          display: block;
+        }
+      }
+      ul {
+        display: none;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.47);
+        z-index: 1;
+        min-height: 470px;
+        min-width: 172px;
+        padding: 0px 0px 0px 0px;
+        top: 110px;
+        left: 0px;
+        li {
+          &:hover .deepMenu {
+            display: block;
+          }
+          &:hover .rightIcon {
+            display: block;
+          }
+
+          ul {
+            li {
+              &:hover .nextMenu {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+      .dropDownContents {
+        li {
+          padding: 0px 0 0 18px;
+          &:hover ul {
+            border-left: 1px solid #ddd;
+          }
+          &:hover .cateBg {
+            display: block;
+          }
+        }
+
+        a {
+          display: inline-block;
+          font-size: 12px;
+          .icon {
+            width: 28px;
+            height: 25px;
+            vertical-align: -40%;
+          }
+          &:hover {
+            color: var(--CPblue);
+            font-weight: 600;
+          }
+          &:hover .nextMenu {
+            // border-left: 4px solid red;
+          }
+        }
+
+        .deepMenu,
+        .nextMenu {
+          position: absolute;
+          display: none;
+          background: none;
+          top: 0;
+          left: 173px;
+          max-height: 473px;
+          overflow: hidden;
+          box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.47);
+
+          > li {
+            margin: 0px 0 5px 0;
+          }
+        }
+        .deepMenu {
+          min-width: 640px;
+          > li {
+            margin: 0px 0 7px 0;
+            .rightIcon {
+              display: none;
+              margin: 2px 0px 0 91px;
+            }
+            :hover .rightIcon {
+              display: block;
+            }
+          }
+          .moreBtn {
+            color: var(--CPblue);
+            text-decoration: underline;
+          }
+
+          .cateBg {
+            display: none;
+            position: absolute;
+            width: 330px;
+            height: 100%;
+            overflow: hidden;
+            // top: 71px;
+            // right: 0;
+            top: 50px;
+            right: 0px;
+            img {
+              margin: 0px 0 0 -160px;
+            }
+          }
+          // ::after {
+          //   content: "";
+          //   position: absolute;
+          //   bottom: 0;
+          //   width: 100px;
+          //   height: 0px;
+          //   background: red;
+          // }
+        }
+        .nextMenu {
+          box-shadow: none;
+          min-width: 250px;
+
+          li:first-child {
+            padding-top: 15px;
+          }
+        }
+        .rightIcon {
+          float: right;
+          width: 5px;
+          height: 8px;
+          display: none;
+          margin: 12px 12px 0 0px;
+          background-position: -156px -20px;
+        }
+        .fashion {
+          .icon {
+            padding-top: 7px;
+            background-position: -28px -21px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+          .rightIcon {
+            margin-top: 21px;
+          }
+        }
+        .beauty {
+          .icon {
+            background-position: -28px -111px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .baby {
+          .icon {
+            background-position: -28px -153px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .food {
+          .icon {
+            background-position: -28px -195px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .kitchen {
+          .icon {
+            background-position: -28px -279px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .living {
+          .icon {
+            background-position: -28px -323px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .interior {
+          .icon {
+            background-position: -28px -363px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .digital {
+          .icon {
+            background-position: -28px -405px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .sports {
+          .icon {
+            background-position: -28px -447px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .car {
+          .icon {
+            background-position: -28px -783px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+          .cateBg {
+            width: 420px;
+            img {
+            }
+          }
+        }
+        .book {
+          .icon {
+            background-position: -28px -573px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .hobby {
+          .icon {
+            background-position: -28px -741px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .office {
+          .icon {
+            background-position: -28px -489px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .pet {
+          .icon {
+            background-position: -28px -531px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .health {
+          padding: 0px 0 7px 18px;
+          .icon {
+            background-position: -28px -867px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .travel {
+          .icon {
+            background-position: -28px -615px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+
+          .bold {
+            font-weight: 600;
+            padding: 5px 0 5px 19px;
+            font-size: 12px;
+          }
+          .thin {
+            padding: 12px 0 12px 19px;
+            &:hover {
+              text-decoration: underline;
+              color: var(--CPblue);
+              cursor: pointer;
+            }
+          }
+          .cateBg {
+            width: 420px;
+            img {
+            }
+          }
+        }
+        .theme {
+          .icon {
+            background-position: -28px -909px;
+          }
+          &:hover .icon {
+            background-position-x: -220px;
+          }
+        }
+        .travel,
+        .theme {
+          border-top: 1px solid #ddd;
+          padding: 4px 0 11px 18px;
+          &:hover {
+            color: var(--CPblue);
+            text-decoration: none;
+            background-position-x: 100px;
+          }
+          .rightIcon {
+            top: 17px;
+          }
+        }
+      }
+    }
+  }
+}
