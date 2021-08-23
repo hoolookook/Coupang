@@ -36,17 +36,34 @@
             height: 12px;
             padding: 0 12px 12px 12px;
             line-height: 12px;
+            a {
+              &:hover {
+                color: var(--CPblue);
+                text-decoration: underline;
+              }
+            }
           }
         }
       }
       .navLeft {
         float: left;
+        .downIcon {
+          display: inline-block;
+          margin-top: -2px;
+          margin-left: -2px;
+          padding-left: 10px;
+          width: 5px;
+          height: 3px;
+          background-position: -153px -36px;
+          vertical-align: 24%;
+        }
         .dropDownContents {
           li {
           }
         }
       }
       .navRight {
+        padding-right: 40px;
         float: right;
         .dropDownContents {
           min-width: 120px;

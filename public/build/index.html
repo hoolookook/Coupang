@@ -18,6 +18,7 @@
             <li><a href="#">즐겨찾기</a></li>
             <li class="hoverMe">
                 <a href="#">입점신청</a>
+                <i class="downIcon spriteImg"></i>
                 <ul class="dropDownContents">
                     <li class="dropDownList"><a href="#">오픈마켓</a></li>
                     <li class="dropDownList"><a href="#">여행·티켓</a></li>
@@ -4635,11 +4636,101 @@
         </ul>
     </div>
 </div>
+                <div class="logo">
+    <a href="#"><img src="/public/src/resources/images/contents/logo.png" width="174" height="41" alt="로고"><h1 class="ir_so">Coupang</h1></a>
+</div>
+<div class="searchArea">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+            전체
+            <i id="plus" class="spriteImg"></i>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#about">전체</a>
+          <a href="#">여성패션</a>
+          <a href="#">남성패션</a>
+          <a href="#">남녀 공용 의류</a>
+          <a href="#">유아동패션</a>
+          <a href="#">뷰티</a>
+          <a href="#">출산/유아동</a>
+          <a href="#">식품</a>
+          <a href="#">주방용품</a>
+          <a href="#">생활용품</a>
+          <a href="#">홈인테리어</a>
+          <a href="#">가전디지털</a>
+          <a href="#">스포츠/레저</a>
+          <a href="#">자동차용품</a>
+          <a href="#">도서/음반/DVD</a>
+          <a href="#">완구/취미</a>
+          <a href="#">문구/오피스</a>
+          <a href="#">반려동물용품</a>
+          <a href="#">헬스/건강식품</a>
+          <a href="#">국내여행</a>
+          <a href="#">해외여행</a>
+          <a href="#">로켓설치</a>
+          <a href="#">공간별 집꾸미기</a>
+          <a href="#">쿠팡 Only</a>
+          <a href="#">싱글라이프</a>
+          <a href="#">오피스&사업자관</a>
+          <a href="#">결혼준비</a>
+          <a href="#">아트/공예</a>
+          <a href="#">여행용품</a>
+          <a href="#">미세먼지용품</a>
+          <a href="#">홈카페</a>
+          <a href="#">실버스토어</a>
+        </div>
+        <input type="text" placeholder="찾고 싶은 상품을 검색해보세요!" id="myInput" onkeyup="filterFunction()">
+    </div>
+    
+</div>
+<div class="myArea">
+    <ul>
+        <li class="hoverMe myCoupang">
+            <a href="#" class="">
+                <div class="icon spriteImg">
+                </div>
+                <p>마이쿠팡</p>
+            </a>
+            <ul class="dropDownContents">
+                <i class="upicon spriteImg"></i>
+                <li class="dropDownList"><a href="#">주문목록</a></li>
+                <li class="dropDownList"><a href="#">취소/반품</a>
+                <li class="dropDownList"><a href="#">찜 리스트</a>
+            </ul>   
+        </li>
+        <li class="hoverMe basket">
+            <a href="#" class="">
+                <div class="icon spriteImg">
+                </div>
+                <p>장바구니</p>
+            </a>
+            <div class="dropDownContents">
+                <i class="upicon spriteImg"></i>
+                <a href="#">장바구니에 담긴 상품이 없습니다.</a>
+            </div>   
+        </li>
+    </ul>
+</div>
+<div class="gnb clearfix">
+    <ul>
+        <li><a href="#"><div class="rocketicon spriteImg"></div>로켓배송</a></li>
+        <li><a href="#"><div class="rocketficon"></div>로켓프레시<div class="new"></div></a></li>
+        <li><a href="#">로켓직구</a></li>
+        <li><a href="#">골드박스</a></li>
+        <li><a href="#">와우회원할인</a></li>
+        <li><a href="#">이벤트/쿠폰</a></li>
+        <li><a href="#">기획전</a></li>
+        <li><a href="#">여행/티켓</a></li>
+    </ul>
+</div>
             </div>
-           
         </div>
         
         
     </div>
+
+    <script src="./resources/js/lib/desSlideshow.js"></script>
+    <script src="./resources/js/main.js"></script>
+
 </body>
 </html>

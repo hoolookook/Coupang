@@ -1,0 +1,240 @@
+#header {
+  .logo {
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .searchArea {
+    position: absolute;
+    top: 27px;
+    right: 165px;
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      border: 2px solid var(--CPblue);
+      .dropbtn {
+        color: #555555;
+        background-color: #fff;
+        padding: 11px 96px 11px 12px;
+        font-size: 12px;
+        border: none;
+        border-right: 3px solid #ddd;
+        cursor: pointer;
+        margin: 0 0 0 0;
+      }
+      #plus {
+        width: 30px;
+        height: 30px;
+        background-position: 6px -165px;
+        outline: none;
+        position: absolute;
+        left: 100px;
+        top: 3px;
+      }
+
+      #plus.minus {
+        background: url(/public/src/resources/images/sprites/sprite02.png)
+          no-repeat;
+        background-position: 6px -142px;
+        background-size: 206px 190px;
+        width: 30px;
+        height: 30px;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 133px;
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+        max-height: 552px;
+        left: -2px;
+        padding: 0 0 0 0;
+        a {
+          color: black;
+          padding: 7px 0 7px 15px;
+          text-decoration: none;
+          display: block;
+          font-size: 12px;
+        }
+        a:hover {
+          text-decoration: underline;
+          background: #fff;
+          color: var(--CPblue);
+        }
+      }
+      .show {
+        display: block;
+      }
+    }
+    #myInput {
+      box-sizing: border-box;
+      background-image: url(searchicon.png);
+      background-position: 14px 12px;
+      background-repeat: no-repeat;
+      font-size: 14px;
+      padding: 9px 13px 11px 12px;
+      border: none;
+
+      margin: 0 0 0 -6px;
+      border-left: none;
+    }
+    #myInput:focus {
+      outline: none;
+    }
+    input {
+      width: 386px;
+    }
+  }
+  .myArea {
+    float: right;
+    position: relative;
+    .hoverMe:hover .dropDownContents {
+      display: block;
+    }
+
+    ul {
+      float: left;
+      li {
+        float: left;
+        padding-top: 21px;
+        padding: 21px 21px 0 0;
+      }
+    }
+    .hoverMe {
+      p {
+        padding-top: 12px;
+        font-size: 12px;
+        color: #333333;
+      }
+    }
+    .myCoupang {
+      padding-top: 30px;
+      .icon {
+        width: 29px;
+        height: 7px;
+        display: block;
+        padding-top: 20px;
+        margin: 0 auto;
+        background-position: -111px -42px;
+      }
+      .dropDownContents {
+        width: 50px;
+        top: 88px;
+        right: 70px;
+        padding: 10px 29px 20px 7px;
+      }
+      .upicon {
+        left: 38px;
+      }
+    }
+    .basket {
+      .icon {
+        width: 40px;
+        height: 36px;
+        display: block;
+        margin: 0 auto;
+        background-position: -112px 0px;
+      }
+      .dropDownContents {
+        width: 300px;
+        display: none;
+        top: 88px;
+        right: 0;
+        padding: 35px 10px 45px;
+        z-index: 3;
+        a {
+          &:hover {
+            color: #333333;
+            text-decoration: none;
+            cursor: default;
+          }
+        }
+      }
+      .upicon {
+        left: 269px;
+      }
+    }
+    .upicon {
+      position: absolute;
+      top: -6px;
+
+      width: 12px;
+      height: 9px;
+      display: block;
+      background-position: -143px -42px;
+    }
+    .dropDownContents {
+      position: absolute;
+      display: none;
+      // margin-top: 14px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 32%);
+
+      .dropDownList {
+        height: 12px;
+        padding: 0 12px 12px 12px;
+        line-height: 12px;
+      }
+      a {
+        display: block;
+        padding-top: 12px;
+        color: #333;
+        font-size: 12px;
+        white-space: nowrap;
+        &:hover {
+          color: var(--CPblue);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .gnb {
+    padding: 0px 0 0 129px;
+    li {
+      float: left;
+      height: 32px;
+      padding: 7px 14px 0 17px;
+      line-height: 32px;
+
+      &:hover a {
+        text-decoration: underline;
+        color: var(--CPblue);
+      }
+      &:first-child,
+      &:nth-child(2) {
+        padding-right: 0;
+      }
+      a {
+        font-size: 12px;
+        color: #333333;
+      }
+    }
+    .rocketicon {
+      background-position: 0 -119px;
+      width: 22px;
+      height: 20px;
+    }
+    .rocketficon {
+      display: inline-block;
+      background: url(/public/src/resources/images/contents/pc_header_rocket_fresh_1x.png)
+        no-repeat;
+      background-size: 20px 20px;
+      width: 22px;
+      height: 20px;
+    }
+    .new {
+      display: inline-block;
+      background: url(/public/src/resources/images/sprites/sprite05.png)
+        no-repeat;
+      background-size: 14px 12px;
+      width: 14px;
+      height: 12px;
+      vertical-align: -6%;
+      margin-left: 1px;
+    }
+  }
+}
