@@ -49,6 +49,16 @@ table {
   background-size: 206px 190px;
   display: inline-block;
 }
+.contentsImg {
+  background: url(/public/src/resources/images/sprites/sprite01.png) no-repeat;
+  display: inline-block;
+  background-size: 935px 780px;
+}
+.contentsImg2 {
+  background: url(/public/src/resources/images/sprites/sprite08.png) no-repeat;
+  display: inline-block;
+  background-size: 200px 200px;
+}
 .categoryImg {
   background: url(/public/src/resources/images/sprites/sprite06.png) no-repeat;
   background-size: 374px 1027px;
@@ -68,3 +78,5 @@ table {
 .clearfix:after {
   clear: both;
 }
+
+// desslideshow
