@@ -1,4 +1,6 @@
 @import "./reset.scss";
+@import "./slick-theme.scss";
+@import "./slick.scss";
 @import "../layout/header.scss";
 @import "../layout/header-nav.scss";
 @import "../layout/header-headerwrap-category.scss";
@@ -9,4 +11,21 @@
 // @import url(./reset.scss);
 :root {
   --CPblue: #4285f4;
+  --CPwoman: #f6699e;
+  --CPman: #1992df;
+  --CPfood: #ee9200;
+  --CPinterior: #dd6641;
+  --CPdigital: #5868be;
+  --CPoffice: #97563e;
+  --CPliving: #9d7a6d;
+  --CPbeauty: #7e57c2;
+  --CPsports: #83be41;
+  --CPbaby: #00aad4;
+  --CPbabyfashion: #00aab4;
+  --CPkitchen: #62ab66;
+  --CPpet: #ab47bc;
+  --CPhobby: #3e8d86;
+  --CPcar: #254e98;
+  --CPbook: #b74b4b;
+  --CPtravel: #00b599;
 }

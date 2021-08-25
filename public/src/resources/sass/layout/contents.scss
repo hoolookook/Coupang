@@ -17,7 +17,7 @@
           display: none;
           a {
             &:hover {
-              border: 1px solid #4285f4;
+              border: 1px solid var(--CPblue);
             }
           }
         }
@@ -28,7 +28,8 @@
     width: 100%;
     height: auto;
     min-width: 1020px;
-    .todaysHot {
+    .recommendWrap {
+      position: relative;
       width: 980px;
       height: auto;
       margin: 0 auto;
@@ -85,8 +86,8 @@
       }
       .side {
         position: absolute;
-        top: 460px;
-        left: 51%;
+        right: -130px;
+        top: 5px;
         margin: 40px 0 0 495px;
         cursor: pointer;
 
@@ -143,6 +144,293 @@
                 cursor: text;
               }
             }
+          }
+        }
+      }
+    }
+  }
+  .cateRecommend {
+    .recommendWrap {
+      .logo {
+        width: 290px;
+        height: 52px;
+        background-position: 0 -123px;
+        margin-bottom: 20px;
+      }
+      .WomanWrap {
+        border-top: 2px solid var(--CPwoman);
+      }
+      .manWrap {
+        border-top: 2px solid var(--CPman);
+      }
+      .foodWrap {
+        border-top: 2px solid var(--CPfood);
+      }
+      .interiorWrap {
+        border-top: 2px solid var(--CPinterior);
+      }
+      .digitalWrap {
+        border-top: 2px solid var(--CPdigital);
+      }
+      .officeWrap {
+        border-top: 2px solid var(--CPoffice);
+      }
+      .livingWrap {
+        border-top: 2px solid var(--CPliving);
+      }
+      .beautyWrap {
+        border-top: 2px solid var(--CPbeauty);
+      }
+      .sportsWrap {
+        border-top: 2px solid var(--CPsports);
+      }
+      .babyWrap {
+        border-top: 2px solid var(--CPbaby);
+      }
+      .babyFashionWrap {
+        border-top: 2px solid var(--CPbabyfashion);
+      }
+      .kitchenWrap {
+        border-top: 2px solid var(--CPkitchen);
+      }
+      .petWrap {
+        border-top: 2px solid var(--CPpet);
+      }
+      .hobbyWrap {
+        border-top: 2px solid var(--CPhobby);
+      }
+      .carWrap {
+        border-top: 2px solid var(--CPcar);
+      }
+      .bookWrap {
+        border-top: 2px solid var(--CPbook);
+      }
+      .travelWrap {
+        border-top: 2px solid var(--CPtravel);
+      }
+
+      .cateWrap {
+        position: relative;
+        height: 600px;
+        border-bottom: 1px solid #ddd;
+        .leftside {
+          position: absolute;
+          .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            .goLink {
+              display: block;
+              font-size: 11px;
+              color: #888888;
+              margin-top: 5px;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+          .hotKeyword {
+            position: absolute;
+            display: inline-block;
+            overflow: hidden;
+            bottom: -575px;
+            width: 124px;
+            h2 {
+              font-size: 16px;
+              font-weight: 700;
+            }
+            .keyword {
+              float: left;
+              clear: left;
+              display: block;
+              line-height: 28px;
+              padding: 0 10px;
+              margin-top: 6px;
+              border: 1px solid #ccc;
+              white-space: nowrap;
+              font-size: 12px;
+              a {
+                font-size: 12px;
+                color: var(--CPwoman);
+              }
+              &:hover {
+                background-color: var(--CPwoman);
+                a {
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+        .slider {
+          position: absolute;
+          left: 120px;
+          top: 14px;
+          width: 324px;
+          .slide {
+            img {
+              display: block;
+              // height: 600px;
+            }
+          }
+          .slick-dots {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 1rem 0;
+            list-style-type: none;
+            bottom: 0;
+            // top: 0;
+          }
+          .slick-arrow {
+            display: inline-block;
+            position: relative;
+            top: 220px;
+            z-index: 500;
+            color: #fff;
+            font-size: 20px;
+          }
+          .slick-prev,
+          .slick-next {
+            font-size: 0;
+            position: absolute;
+            color: #fff;
+            border: 0;
+            background: none;
+            z-index: 1;
+            top: 298px;
+            cursor: pointer;
+            width: 30px;
+            height: 50px;
+            background: url(/public/src/resources/images/hot/icon.png);
+            background-size: 100px 363px;
+            opacity: 0;
+          }
+          .slick-prev {
+            left: 0;
+            background-position: 0px -13px;
+          }
+
+          .slick-next {
+            right: 0;
+            background-position: -50px -13px;
+          }
+          .slick-slider:hover .slick-prev,
+          .slick-slider:hover .slick-next {
+            opacity: 1;
+          }
+          .subject {
+            position: absolute;
+            margin: 465px 0 0 22px;
+            padding: 20px 22px 0;
+            width: 237px;
+            height: 60px;
+            background-color: var(--CPwoman);
+            opacity: 0.9;
+            color: white;
+            text-align: center;
+            line-height: 15px;
+          }
+          .top {
+            margin-bottom: 8px;
+            font-size: 16px;
+          }
+          .bottom {
+            font-size: 12px;
+          }
+        }
+        .slider_six {
+          width: 550px;
+          position: absolute;
+          top: 37px;
+          right: -14px;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 536px;
+            border-bottom: 1px solid #ddd;
+            top: 260px;
+            left: 0px;
+          }
+          .slick-arrow {
+            display: inline-block;
+            position: relative;
+            top: 220px;
+            z-index: 500;
+            color: #fff;
+            font-size: 20px;
+          }
+          .slick-prev,
+          .slick-next {
+            font-size: 0;
+            position: absolute;
+            color: #fff;
+            border: 0;
+            background: none;
+            z-index: 1;
+            top: 275px;
+            cursor: pointer;
+            width: 30px;
+            height: 50px;
+            background: url(/public/src/resources/images/hot/icon.png);
+            background-size: 100px 363px;
+            opacity: 0;
+          }
+          .slick-prev {
+            left: 0;
+            background-position: 0px -13px;
+          }
+
+          .slick-next {
+            right: 0;
+            background-position: -50px -13px;
+          }
+          .slick-slider:hover .slick-prev,
+          .slick-slider:hover .slick-next {
+            opacity: 1;
+          }
+          a {
+            text-decoration: none;
+            color: black;
+          }
+          .slick-slide {
+            .wrap {
+              padding-left: 10px;
+              padding-bottom: 70px;
+              padding-top: 5px;
+            }
+          }
+          span {
+            display: block;
+          }
+          .slick-dots {
+            position: absolute;
+            bottom: 13px;
+            display: inline-block;
+            overflow: hidden;
+            width: 124px;
+            left: 40%;
+          }
+          .title {
+            margin-top: 3px;
+            line-height: 16px;
+            width: 168px;
+            font-size: 11px;
+            text-decoration: none;
+            height: 28px;
+            overflow: hidden;
+            line-height: 14px;
+            margin: 6px 0 1px;
+            &:hover {
+              color: var(--CPblue);
+              text-decoration: underline;
+            }
+          }
+          .price {
+            vertical-align: -1px;
+            font-size: 14px;
+            font-family: "Tahoma";
           }
         }
       }

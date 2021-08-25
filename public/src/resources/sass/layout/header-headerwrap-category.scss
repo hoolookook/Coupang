@@ -74,7 +74,7 @@
         .nextMenu {
           position: absolute;
           display: none;
-          background: none;
+          background: white;
           top: 0;
           left: 173px;
           max-height: 473px;
@@ -114,6 +114,7 @@
             right: 0px;
             img {
               margin: 0px 0 0 -160px;
+              z-index: 9999;
             }
           }
           // ::after {
@@ -128,6 +129,7 @@
         .nextMenu {
           box-shadow: none;
           min-width: 250px;
+          background: none;
 
           li:first-child {
             padding-top: 15px;
