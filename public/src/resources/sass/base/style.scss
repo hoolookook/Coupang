@@ -8,6 +8,10 @@
 @import "../layout/contents.scss";
 @import "../layout/footer.scss";
 
+#container {
+  min-width: 1020px;
+  overflow: hidden;
+}
 // @import url(./reset.scss);
 :root {
   --CPblue: #4285f4;

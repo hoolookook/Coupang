@@ -69,6 +69,11 @@ table {
   background-size: 374px 1027px;
   display: inline-block;
 }
+.footerImg {
+  background: url(/public/src/resources/images/sprites/sprite35.png) no-repeat;
+  display: inline-block;
+  background-size: 850px 178px;
+}
 /* clearfix를 쓰는이유
      서브 메뉴가 있을수 있으므로  overflow: hidden 은 쓰지 않는다 <-서브메뉴가 가려지기 때문*/
 .clearfix {

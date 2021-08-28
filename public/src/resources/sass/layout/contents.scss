@@ -157,58 +157,6 @@
         background-position: 0 -123px;
         margin-bottom: 20px;
       }
-      .WomanWrap {
-        border-top: 2px solid var(--CPwoman);
-      }
-      .manWrap {
-        border-top: 2px solid var(--CPman);
-      }
-      .foodWrap {
-        border-top: 2px solid var(--CPfood);
-      }
-      .interiorWrap {
-        border-top: 2px solid var(--CPinterior);
-      }
-      .digitalWrap {
-        border-top: 2px solid var(--CPdigital);
-      }
-      .officeWrap {
-        border-top: 2px solid var(--CPoffice);
-      }
-      .livingWrap {
-        border-top: 2px solid var(--CPliving);
-      }
-      .beautyWrap {
-        border-top: 2px solid var(--CPbeauty);
-      }
-      .sportsWrap {
-        border-top: 2px solid var(--CPsports);
-      }
-      .babyWrap {
-        border-top: 2px solid var(--CPbaby);
-      }
-      .babyFashionWrap {
-        border-top: 2px solid var(--CPbabyfashion);
-      }
-      .kitchenWrap {
-        border-top: 2px solid var(--CPkitchen);
-      }
-      .petWrap {
-        border-top: 2px solid var(--CPpet);
-      }
-      .hobbyWrap {
-        border-top: 2px solid var(--CPhobby);
-      }
-      .carWrap {
-        border-top: 2px solid var(--CPcar);
-      }
-      .bookWrap {
-        border-top: 2px solid var(--CPbook);
-      }
-      .travelWrap {
-        border-top: 2px solid var(--CPtravel);
-      }
-
       .cateWrap {
         position: relative;
         height: 600px;
@@ -431,6 +379,332 @@
             vertical-align: -1px;
             font-size: 14px;
             font-family: "Tahoma";
+          }
+        }
+      }
+      .WrapMargin {
+        margin-top: 20px;
+      }
+      .WomanWrap {
+        border-top: 2px solid var(--CPwoman);
+      }
+      .manWrap {
+        border-top: 2px solid var(--CPman);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPman);
+              }
+              &:hover {
+                background-color: var(--CPman);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPman);
+          }
+        }
+      }
+      .foodWrap {
+        border-top: 2px solid var(--CPfood);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPfood);
+              }
+              &:hover {
+                background-color: var(--CPfood);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPfood);
+          }
+        }
+      }
+      .interiorWrap {
+        border-top: 2px solid var(--CPinterior);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPinterior);
+              }
+              &:hover {
+                background-color: var(--CPinterior);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPinterior);
+          }
+        }
+      }
+      .digitalWrap {
+        border-top: 2px solid var(--CPdigital);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPdigital);
+              }
+              &:hover {
+                background-color: var(--CPdigital);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPdigital);
+          }
+        }
+      }
+      .officeWrap {
+        border-top: 2px solid var(--CPoffice);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPoffice);
+              }
+              &:hover {
+                background-color: var(--CPoffice);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPoffice);
+          }
+        }
+      }
+      .livingWrap {
+        border-top: 2px solid var(--CPliving);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPliving);
+              }
+              &:hover {
+                background-color: var(--CPliving);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPliving);
+          }
+        }
+      }
+      .beautyWrap {
+        border-top: 2px solid var(--CPbeauty);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPbeauty);
+              }
+              &:hover {
+                background-color: var(--CPbeauty);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPbeauty);
+          }
+        }
+      }
+      .sportsWrap {
+        border-top: 2px solid var(--CPsports);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPsports);
+              }
+              &:hover {
+                background-color: var(--CPsports);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPsports);
+          }
+        }
+      }
+      .babyWrap {
+        border-top: 2px solid var(--CPbaby);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPbaby);
+              }
+              &:hover {
+                background-color: var(--CPbaby);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPbaby);
+          }
+        }
+      }
+      .babyFashionWrap {
+        border-top: 2px solid var(--CPbabyfashion);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPbabyfashion);
+              }
+              &:hover {
+                background-color: var(--CPbabyfashion);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPbabyfashion);
+          }
+        }
+      }
+      .kitchenWrap {
+        border-top: 2px solid var(--CPkitchen);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPkitchen);
+              }
+              &:hover {
+                background-color: var(--CPkitchen);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPkitchen);
+          }
+        }
+      }
+      .petWrap {
+        border-top: 2px solid var(--CPpet);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPpet);
+              }
+              &:hover {
+                background-color: var(--CPpet);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPpet);
+          }
+        }
+      }
+      .hobbyWrap {
+        border-top: 2px solid var(--CPhobby);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPhobby);
+              }
+              &:hover {
+                background-color: var(--CPhobby);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPhobby);
+          }
+        }
+      }
+      .carWrap {
+        border-top: 2px solid var(--CPcar);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPcar);
+              }
+              &:hover {
+                background-color: var(--CPcar);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPcar);
+          }
+        }
+      }
+      .bookWrap {
+        border-top: 2px solid var(--CPbook);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPbook);
+              }
+              &:hover {
+                background-color: var(--CPbook);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPbook);
+          }
+        }
+      }
+      .travelWrap {
+        border-top: 2px solid var(--CPtravel);
+        .leftside {
+          .hotKeyword {
+            .keyword {
+              a {
+                color: var(--CPtravel);
+              }
+              &:hover {
+                background-color: var(--CPtravel);
+              }
+            }
+          }
+        }
+        .slider {
+          .subject {
+            background-color: var(--CPtravel);
           }
         }
       }
