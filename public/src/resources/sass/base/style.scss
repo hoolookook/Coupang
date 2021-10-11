@@ -33,3 +33,17 @@
   --CPbook: #b74b4b;
   --CPtravel: #00b599;
 }
+.sidenav {
+  width: 353px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  font-size: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
