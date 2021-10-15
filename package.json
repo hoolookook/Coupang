@@ -29,15 +29,20 @@
     "gulp-useref": "^5.0.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
-    "postcss": "^8.1.0",
     "sass": "^1.43.2"
   },
-  "devDependencies": {
-    "gulp-postcss": "^9.0.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoolookook/Coupang.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoolookook/Coupang/issues"
+  },
+  "homepage": "https://github.com/hoolookook/Coupang#readme"
 }
