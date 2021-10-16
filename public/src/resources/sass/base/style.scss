@@ -7,10 +7,12 @@
 @import "../layout/header-headerwrap-others.scss";
 @import "../layout/contents.scss";
 @import "../layout/footer.scss";
-
-#container {
+body {
   min-width: 1020px;
-  overflow: hidden;
+}
+#container {
+  // min-width: 1020px;
+  // overflow: hidden;
 }
 // @import url(./reset.scss);
 :root {
