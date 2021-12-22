@@ -1,0 +1,177 @@
+#footer {
+    position: relative;
+    border-top: 2px solid #ddd;
+    background: #fff;
+    min-width: 1020px;
+    overflow: hidden;
+}
+
+#footer .footerWrap {
+    border-bottom: 1px solid #ddd;
+    height: 34px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#footer .footerWrap .footerNav {
+    padding: 0 14px;
+    color: #555;
+    white-space: nowrap;
+    height: 12px;
+}
+
+#footer .footerWrap .footerNav a {
+    position: relative;
+    font-size: 12px;
+    color: #555555;
+}
+
+#footer .footerWrap .footerNav .link::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: black;
+    vertical-align: 0px;
+    margin: 0 21px;
+}
+
+#footer .about {
+    width: 1020px;
+    height: 100px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin: 30px auto;
+}
+
+#footer .about h1 {
+    float: left;
+}
+
+#footer .about h1 a {
+    text-indent: -9999px;
+}
+
+#footer .about h1 .logo {
+    background-position: -19px -34px;
+    width: 117px;
+    height: 34px;
+    display: block;
+    margin: 0 15px 0 15px;
+}
+
+#footer .about .aboutCoupang {
+    width: 260px;
+    padding-top: 12px;
+    padding-right: 10px;
+    float: left;
+}
+
+#footer .about .aboutCoupang p {
+    font-size: 12px;
+    color: #555555;
+    line-height: 1px;
+}
+
+#footer .about .contact {
+    float: left;
+    width: 330px;
+    color: #555;
+    padding-left: 20px;
+}
+
+#footer .about .contact a strong {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#footer .about .contact a p {
+    display: inline-block;
+    font-size: 12px;
+    color: #555555;
+}
+
+#footer .about .contact a p:last-child {
+    font-size: 11px;
+}
+
+#footer .about .contact a b {
+    font-size: 24px;
+    margin: 9px 0 11px 0;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+#footer .about .service {
+    padding-top: 5px;
+    float: left;
+    width: 220px;
+    font-size: 11px;
+}
+
+#footer .about .service p {
+    padding-bottom: 5px;
+}
+
+#footer .about .service p:first-child {
+    font-weight: bold;
+}
+
+#footer .about .service a {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+#footer .certification {
+    width: 1020px;
+    margin: 30px auto;
+}
+
+#footer .certification .certiWrap {
+    width: 968px;
+    height: 80px;
+    margin: 0 auto;
+    background-position: 0 -92px;
+    position: relative;
+}
+
+#footer .end {
+    background: #333;
+    height: 80px;
+}
+
+#footer .end .copyRight {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .end .copyRight p {
+    color: #888888;
+    font-size: 11px;
+    padding: 8px 0 3px 0;
+}
+
+#footer .end .copyRight .Icon {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+}
+
+#footer .end .copyRight .face {
+    background-position: -220px -30px;
+    right: 83px;
+}
+
+#footer .end .copyRight .blog {
+    background-position: -348px -29px;
+    right: 40px;
+}
+
+#footer .end .copyRight .insta {
+    background-position: -390px -30px;
+    right: 0;
+}

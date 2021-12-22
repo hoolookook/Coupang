@@ -137,6 +137,15 @@
         display: block;
         margin: 0 auto;
         background-position: -112px 0px;
+        em {
+          padding-left: 24px;
+          vertical-align: 10%;
+          color: #ffe;
+          font-size: 10px;
+          font-weight: bold;
+          font-style: none;
+          font-style: normal;
+        }
       }
       .dropDownContents {
         width: 300px;
