@@ -16,6 +16,28 @@
     border: 2px solid var(--CPblue);
 }
 
+#header .searchArea .dropdown .rightIcon {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 39px;
+}
+
+#header .searchArea .dropdown .mic {
+    right: 45px;
+    background: url(/public/src/resources/images/sprites/sprite03.png) no-repeat;
+    -moz-background-size: 20px 48px;
+    background-size: 20px 48px;
+    width: 26px;
+    height: 26px;
+    top: 6px;
+}
+
+#header .searchArea .dropdown .searchIcon {
+    right: 0;
+    background-position: -112px -71px;
+}
+
 #header .searchArea .dropdown .dropbtn {
     color: #555555;
     background-color: #fff;
@@ -155,6 +177,16 @@
     display: block;
     margin: 0 auto;
     background-position: -112px 0px;
+}
+
+#header .myArea .basket .icon em {
+    padding-left: 24px;
+    vertical-align: 10%;
+    color: #ffe;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: none;
+    font-style: normal;
 }
 
 #header .myArea .basket .dropDownContents {

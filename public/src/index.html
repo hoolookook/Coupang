@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
-    
     @@include('@@webRoot/html/include/meta.html')
-    <link rel="stylesheet" href="/public/build/resources/css/base/style.css">
-    
 </head>
 <body>
     <div id="container">
+        <!-- header -->
         <div id="header">
             @@include('@@webRoot/html/include/header-nav.html')
             <div class="headerWrap">
@@ -15,18 +13,13 @@
                 @@include('@@webRoot/html/include/header-headerwrap-others.html')
             </div>
         </div>
-        <!-- <div id="sideHeight" class="sidenav"> -->
-            
-        </div>
+        <!-- contents -->
         @@include('@@webRoot/html/include/contents.html')
+        <!-- footer -->
         @@include('@@webRoot/html/include/footer.html')
     </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="./resources/js/lib/slick.min.js"></script>
-    <script src="./resources/js/lib/desSlideshow.js"></script>
-    <script src="./resources/js/main.js"></script>
+    <!-- js -->
+    @@include('@@webRoot/html/include/jsWrap.html')
 
 </body>
 </html>

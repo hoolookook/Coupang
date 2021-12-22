@@ -12,6 +12,26 @@
       position: relative;
       display: inline-block;
       border: 2px solid var(--CPblue);
+      .rightIcon {
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 39px;
+      }
+      .mic {
+        right: 45px;
+        background: url(/public/src/resources/images/sprites/sprite03.png)
+          no-repeat;
+        background-size: 20px 48px;
+        width: 26px;
+        height: 26px;
+        top: 6px;
+      }
+      .searchIcon {
+        right: 0;
+
+        background-position: -112px -71px;
+      }
       .dropbtn {
         color: #555555;
         background-color: #fff;

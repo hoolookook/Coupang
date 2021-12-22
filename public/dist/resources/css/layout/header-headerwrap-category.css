@@ -19,6 +19,14 @@
     display: block;
 }
 
+#header .headerWrap .category .hoverMe .cateText {
+    position: absolute;
+    bottom: 25px;
+    left: 29px;
+    font-size: 13px;
+    color: #fff;
+}
+
 #header .headerWrap .category ul {
     display: none;
     position: relative;
