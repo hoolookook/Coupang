@@ -103,9 +103,6 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: url(searchicon.png);
-    background-position: 14px 12px;
-    background-repeat: no-repeat;
     font-size: 14px;
     padding: 9px 13px 11px 12px;
     border: none;
